@@ -1,0 +1,6 @@
+sendPush.php contains a function I found useful when attempting to send an API call 
+to Parse.com.  I had the command to initiate a push notification to Android working from 
+curl in the command-line, but attempts at a libcurl conversion for use in PHP failed miserably.
+
+The provided code snippet will successfully talk to the API at Parse.com and initiate a push 
+notification.
